@@ -1,0 +1,25 @@
+# Python 编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 操作系统
+Thumbs.db
+Desktop.ini
+
+# 日志与临时文件
+*.log
+*.tmp
+
+# 本地敏感配置（不该传上去的）
+db.ini
+deploy_key_rsa
